@@ -50,13 +50,13 @@ int main(){
 3. **Tokenize**:
 
    ```js
-   var tokens = parser.lexer.lexUnit.tokenize(codeText);
+   const tokens = parser.lexer.lexUnit.tokenize(codeText);
    ```
 
 4. **Parse**:
 
    ```js
-   var parse_tree = parser.parse(tokens);
+   const parse_tree = parser.parse(tokens);
    ```
 
 Parse tree of the above C code would be like [this](http://paste.ubuntu.com/17739375/).
